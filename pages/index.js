@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 
-function HomePage() {
+function HomePage({ ...props }) {
     return (
         <section className="bg-red-600 text-gray-600 body-font">
             <div className="w-full h-full bg-red-400 px-5 py-24 mx-auto">
